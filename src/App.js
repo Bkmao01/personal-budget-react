@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import Menu from './Menu/Menu'
 import Hero from './Hero/Hero';
 import Homepage from './Homepage/Homepage';
@@ -25,11 +25,8 @@ function App() {
           <Route path='/login' element={<LoginPage />} />
           <Route path='/' element={<Homepage />} />
 
-
-          
         </Routes>
       </div>
-      <Homepage/>
       <Footer/>
     </Router>
   );
